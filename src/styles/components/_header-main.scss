@@ -1,0 +1,205 @@
+.section__header-main {
+    // width: 100%;
+    max-height: 795px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    // position: relative;
+    z-index: 1;
+
+
+
+    background-image: url(/src/img/header-main/header-background1200.png);
+    background-position: center;
+    // background-position: absolute;
+    background-position-y: -100px;
+    background-size: auto 718px;
+    
+
+    @media (min-width: 481px) {
+        background-position-y: -70px;
+        background-size: auto 720px;
+        max-height: 868px;
+    }
+    @media (min-width: 993px) {
+        background: none;
+    }
+
+}
+
+.page__header {
+    @media (min-width: 993px) {
+        background-image: url(/src/img/header-main/header-background1200.png);
+        background-position: center;
+        background-size: auto 800px;
+        background-repeat: repeat;
+    }
+}
+
+.header-main {
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+
+    }
+
+
+    &__title {
+        padding-top: 50px;
+        margin: 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FFFFFF;
+
+        @media (min-width: 481px) {
+            padding-top: 68px;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 72px;
+        }
+        @media (min-width: 993px) {
+            font-weight: 700;
+            font-size: 82px;
+            line-height: 82px;
+            padding-top: 40px;
+        }
+    }
+
+    &__text {
+
+        color: #8D81AC;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+
+
+        // max-width: 290px;
+        // margin: 0 auto;
+        margin: 0;
+
+        padding-top: 19px;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-family: 'Lato';
+
+        @media (min-width: 481px) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        }
+        @media (min-width: 993px) {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+
+    &__text--2 {
+        color: #848E97;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0;
+        padding-top: 14px;
+        text-transform: uppercase;
+        padding-left: 13%;
+        padding-right: 13%;
+
+        @media (min-width: 481px) {
+            padding-top: 19px;
+}
+    }
+        @media (min-width: 993px) {
+            padding-top: 19px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+.header-main__button {
+    padding: 0;
+    height: 45px;
+    width: 290px;
+    background: #8D81AC;
+    border-radius: 40px;
+    margin-top: 400px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #FFFFFF;
+        color: #8D81AC;
+        border: 2px solid #8D81AC;
+    }
+
+    @media (min-width: 481px) {
+        margin-top: 410px;
+
+        height: 62px;
+
+    }
+    @media (min-width: 642px) {
+        width: 50%;
+        margin-top: 435px;
+        font-size: 21px;
+        line-height: 23px;
+    }
+    @media (min-width: 993px) {
+        margin-top: 430px;
+        width: 390px;
+    }
+}
+
+.header-main__under-button--wrapper{
+    background-color: #FFFFFF;
+    min-width: 320px;
+    width: 100%;
+    max-height: 78px;
+    position: absolute;
+    top: 720px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12.5px;
+    @media (min-width: 481px) {
+        top: 800px;
+    }
+
+    @media (min-width: 642px) and (max-width: 730px) {
+        top: 825px;
+    }
+
+
+    @media (min-width: 993px) {
+        top: 790px
+    }
+
+}
+
+.header-main__under-button--text {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5.5px;
+    @media (min-width: 481px) {
+        padding-top: 35px;
+    }
+}

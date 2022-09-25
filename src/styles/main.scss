@@ -1,0 +1,59 @@
+@import "./components/header-nav";
+@import "./components/header-main";
+@import "./components/people-section";
+@import "./components/editor";
+@import "./components/fonts";
+@import "./components/here";
+@import "./components/price";
+
+
+@import "_tools/variables";
+@import "_tools/mixins";
+
+
+
+
+
+
+
+
+// section {
+//   padding: 0 10px;
+// }
+
+
+body {
+
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.container {
+    min-width: 320px;
+    max-width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+
+    @media (min-width: 481px) {
+        max-width: 992px;
+
+    }
+
+    @media (min-width: 993px) {
+        max-width: 1200px;
+    }
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

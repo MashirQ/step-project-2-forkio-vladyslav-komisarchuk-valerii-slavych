@@ -1,0 +1,62 @@
+.sect-edi{
+  padding-top: 118px;
+  text-align: center;
+  h2{
+
+    max-width: 758.89px;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #635C73;
+    margin: auto;
+  }
+  p{
+    padding-top: 35px;
+    margin: auto;
+    max-width: 861px;
+    font-family: 'Lato', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 152%;
+    align-items: center;
+    text-align: center;
+
+  }
+  img{
+    padding-top: 13px;
+    max-width: 365px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sect-edi{
+    h2{
+      font-size: 7.03vw;
+    }
+    p{
+      max-width: 689px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .sect-edi{
+    h2{
+      font-size: 9.88vw;
+    }
+    p{
+max-width: 269px;
+    }
+  }
+}
+.click{
+margin-top: 13px;
+  margin-bottom:70px ;
+}

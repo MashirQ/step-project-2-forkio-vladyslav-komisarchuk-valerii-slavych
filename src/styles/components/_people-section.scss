@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url(/src/img/people/testmonials-bg.png);
+    background-image: url(/dist/img/people/testmonials-bg.png);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -48,7 +48,6 @@
 
     &-item {
         display: flex;
-        // justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 0 15px 45px 14px;
@@ -76,8 +75,6 @@
     padding-top: 34px;
     padding-left: 34px;
     padding-right: 35px;
-    // background-color:  #4a384d;
-    // background-image: url(/src/img/people/testmonials-bg.png);
 }
 
 .section__people-footer--text {

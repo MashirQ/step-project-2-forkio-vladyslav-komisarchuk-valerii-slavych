@@ -25,10 +25,6 @@
             padding-top: 31px;
             padding-left: 5%;
             padding-right: 5%;
-
-            
-            
-            // background-color: #000001;
             background: none;
         }
 
@@ -48,9 +44,6 @@
     }
 
 }
-
-
-
 
     &__nav-list {
         list-style: none;
@@ -80,20 +73,10 @@
     }
 
     @media (min-width: 993px) {
-        
-
         max-width: 20%;
         padding-top: 42px;
         padding-left: 0;
-        // display: flex;
-
-        // padding-left: 160px;
-
-
-
     }
-
-
 }
     &__nav-item {
         font-style: normal;
@@ -183,10 +166,7 @@
         }
 
         @media (min-width: 993px) {
-            // padding-left: 35px;
-
             background: none;
-
         }
 
     }
@@ -194,7 +174,7 @@
     &__nav-logo {
         &:hover {
             fill-opacity: 0;
-            background-image: url(/src/img/header-nav/logo-hover\ 1.png);
+            background-image: url(/dist/img/header-nav/logo-hover\ 1.png);
         }
         
         &--text {
@@ -219,7 +199,6 @@
 
        
         @media (min-width: 481px) {
-            fill: green;
             &--text {
                 display: block;
             }
@@ -229,7 +208,6 @@
     &__nav-logo--link {
         display: flex;
         align-items: center;
-
         z-index: 10;
     }
 

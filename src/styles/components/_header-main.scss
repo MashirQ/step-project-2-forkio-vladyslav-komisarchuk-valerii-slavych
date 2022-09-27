@@ -5,7 +5,7 @@
     align-content: flex-start;
     flex-wrap: wrap;
     z-index: 1;
-    background-image: url(/dist/img/header-main/header-background1200.png);
+    background-image: url(../dist/img/header-main/header-background1200.png);
     background-position: center;
     background-position-y: -100px;
     background-size: auto 718px;
@@ -24,7 +24,7 @@
 
 .page__header {
     @media (min-width: 993px) {
-        background-image: url(/dist/img/header-main/header-background1200.png);
+        background-image: url(../dist/img/header-main/header-background1200.png);
         background-position: center;
         background-size: auto 800px;
         background-repeat: repeat;

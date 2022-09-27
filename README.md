@@ -1,1 +1,12 @@
-# step-project-2-forkio-vladyslav-komisarchuk-valerii-slavych
+## Над проектом працювали:
+
+# Владислав Комісарчук:
+
+- Зверстав шапку сайту з верхнім меню (включаючи випадаюче меню при малій роздільній здатності екрана).
+- Зверстав секцію People Are Talking About Fork.
+
+# Валерій Славич:
+
+- Зверстав блок Revolutionary Editor. 
+- Зверстав секцію Here is what you get.
+- Зверстав секцію Fork Subscription Pricing. 

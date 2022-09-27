@@ -71,19 +71,23 @@ $button-color: #776B79;
         position: relative;
         padding: 88px 61px;
 
+
         @media (min-width: 481px) and (max-width: 992px) {
             font-size: 42px;
-line-height: 44px;
+            line-height: 44px;
+            padding-top: 25px;
         }
 
         @media (min-width: 993px) and (max-width: 1200px) {
             font-size: 48px;
-line-height: 50px;
+            line-height: 50px;
+            padding-top: 25px;
         }
 
         @media (min-width: 1200px) {
             font-size: 48px;
-line-height: 50px;
+            line-height: 50px;
+            padding-top: 25px;
         }
 
     }
